@@ -12,4 +12,6 @@ Create a service expose to the Redis deployment `kubectl expose deploy mydb --na
 
 Print the Enviroment Variables in a Pod without actually logging in `kubectl exec -it myapp-pod -- printenv`
 
+![image](https://github.com/Pavan-1997/K8s_Init_Containers/assets/32020205/2059fdf1-d582-4648-b068-f9a571a524c7)
+
 Enter the shell in a Pod `kubectl exec -it myapp-pod -- sh`
